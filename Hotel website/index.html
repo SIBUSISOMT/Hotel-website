@@ -14,27 +14,18 @@
 </head>
 <body>
 
-   <!-- header -->
-
    <header class="header">
-     
-  
       <nav class="navbar"> 
-
-         <img src="images/img_1_1694565650345.jpg"  alt="Full Moon logo">
-      
-         <a href="#home">home</a>
-         <a href="#about">about</a>
-         <a href="#gallery">gallery</a>
-         <a href="#faq">faq</a>
-       
+         <img src="images/img_1_1694565650345.jpg" alt="Full Moon logo">
+         <a class="left" href ="#home">home</a>
+         <a id="left" href="#about">about</a>
+         <a id="left" href="#about">About Us</a>
+         <a id="left" href="#gallery">gallery</a>
+         <a id="left" href="#faq">faq</a>
+         <a id="left" href="#reservation" class="btn"> book now</a>
       </nav>
-
       <div id="menu-btn" class="fas fa-bars"></div>
-
    </header>
-
-   <!-- end -->
 
    <!-- home -->
 
@@ -252,6 +243,10 @@
             <h3>about us</h3>
             <p>At the Full Moon guest house we don't just focus on giving our customers the best experience but we also ensure that we provide convinient transport to customers from their location to our guest house and we don't stop there, we also transport them to any location of their choice at affordable prices .</p>
             <p> Our guest house caters for all your needs from regular daily/ weekly bookings, event hosting and many more. Reach out to us and let us give you the best experience. </p>
+            <p> We value your input and look forward to giving you the best experience. Do follow us on <a href="https://www.instagram.com/invites/contact/?i=1n67vlv4a8bz2&utm_content=sauanyg">instagram</a> and on our <a href="www.facebook.com/Newstlyle2enter?mibextid=D4KYlr">facebook</a> page.</p>
+            <br>
+            <br>
+            <p>SEE YOU SOON !!</p>
          </div>
 
       </div>
@@ -277,18 +272,7 @@
 </head>
 <body>
    <!-- header -->
-   <header class="header">
-      <nav class="navbar"> 
-         <img src="images/img_1_1694565650345.jpg" alt="Full Moon logo">
-         <a href="#home">home</a>
-         <a href="#about">about</a>
-         <a href="#room">room</a>
-         <a href="#gallery">gallery</a>
-         <a href="#faq">faq</a>
-         <a href="#reservation" class="btn"> book now</a>
-      </nav>
-      <div id="menu-btn" class="fas fa-bars"></div>
-   </header>
+  
 
    <section class="reservation" id="reservation">
       <h1 class="heading">book now</h1>
@@ -363,8 +347,8 @@
       form.addEventListener("submit", function(e) {
          e.preventDefault();
          const message = "Hi Muzi,this email comes bearing gifts :)"
-         const recipient = "sbusisozamowakhe18@gmail.com";
-         const subject = "Reservation Inquiry";
+         const recipient = "fullmoongt@gmail.com";
+         const subject = "Reservation Inquiry at Full Moon Guest House";
          const body = message + `%0DName: ${nameInput.value}%0D%0AEmail: ${emailInput.value} %0D%0APhone Number:  ${phoneNumber.value}%0D%0ANumber of guests: ${numOfGuests.value} %0D%0ACheck In: ${chkIn.value}%0D%0ACheck out: ${chkOut.value}`;
          window.location.href = `mailto:${recipient}?subject=${subject}&body=${body}`;
       });
