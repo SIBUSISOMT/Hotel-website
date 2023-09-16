@@ -88,13 +88,23 @@ section{
 
 .header .logo i{
     color: var(--primary);
-    padding-right: .5rem;
+   
+}
+nav img{
+    width: 130px;
+    cursor: pointer;
+   
 }
 
-.header .navbar a{
+.header .navbar a {
     font-size: 1.7rem;
     color: var(--black);
-    margin: 0 1rem;
+    margin-left: 1rem;
+}
+.header .navbar img {
+    width: 130px;
+    cursor: pointer;
+    margin-right: 1rem;
 }
 
 .header .navbar a:hover{

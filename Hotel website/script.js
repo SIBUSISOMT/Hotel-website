@@ -7,6 +7,7 @@ menu.onclick = () => {
 }
 
 window.onscroll = () => {
+    
     menu.classList.remove('fa-times');
     navbar.classList.remove('active');
 }
@@ -100,3 +101,7 @@ accordions.forEach(acco =>{
         acco.classList.add('active');
     }
 })
+
+
+
+
