@@ -245,13 +245,13 @@
       <div class="row">
 
          <div class="image">
-            <img src="images/about.jpg" alt="">
+            <img src="images/IMG-20230913-WA0040.jpg" alt="">
          </div>
 
          <div class="content">
             <h3>about us</h3>
-            <p>zzzzzzzzzzzzzzzzzzzzzzz, ccccccccccccccccccccccccccccccc. ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc.</p>
-            <p>cccccccccccccccccccccc, cvvvvvvvvvvvvvvvvvvvvvvvvvvv.ccccccccccccccccccccccccccccccccccccccccccccc, addddddddddddddddddddddddddddddddddddddddddddddddddds.</p>
+            <p>At the Full Moon guest house we don't just focus on giving our customers the best experience but we also ensure that we provide convinient transport to customers from their location to our guest house and we don't stop there, we also transport them to any location of their choice at affordable prices .</p>
+            <p> Our guest house caters for all your needs from regular daily/ weekly bookings, event hosting and many more. Reach out to us and let us give you the best experience. </p>
          </div>
 
       </div>
@@ -362,24 +362,15 @@
 
       form.addEventListener("submit", function(e) {
          e.preventDefault();
+         const message = "Hi Muzi,this email comes bearing gifts :)"
          const recipient = "sbusisozamowakhe18@gmail.com";
          const subject = "Reservation Inquiry";
-         const body = "Hi Muzi,this email come bearing gists !!"`Name: ${nameInput.value}%0D%0AEmail: ${emailInput.value} Phone Number:  ${phoneNumber.value}Number of guests: ${numOfGuests.value} Check In: ${chkIn.value}Check out: ${chkOut}`;
+         const body = message + `%0DName: ${nameInput.value}%0D%0AEmail: ${emailInput.value} %0D%0APhone Number:  ${phoneNumber.value}%0D%0ANumber of guests: ${numOfGuests.value} %0D%0ACheck In: ${chkIn.value}%0D%0ACheck out: ${chkOut.value}`;
          window.location.href = `mailto:${recipient}?subject=${subject}&body=${body}`;
       });
    </script>
 </body>
 </html>
-
-   <!-- end -->
-
-   <!-- footer -->
-
-  
-
-     
-
-   <!-- end -->
 
    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
